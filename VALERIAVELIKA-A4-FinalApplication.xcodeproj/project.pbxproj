@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FAF69D2D5184793FC83F335 /* Pods_VALERIAVELIKA_A4_FinalApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D5CAA2FCC95C9DD126F9CA /* Pods_VALERIAVELIKA_A4_FinalApplication.framework */; };
+		D21874692491D0BB006D413F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21874682491D0BB006D413F /* SignInViewController.swift */; };
+		D218746B2491D0C4006D413F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218746A2491D0C4006D413F /* SignUpViewController.swift */; };
+		D21874702491FD08006D413F /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218746F2491FD08006D413F /* Styles.swift */; };
+		D22248E824738DB8009C3A00 /* WorkshopDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22248E724738DB8009C3A00 /* WorkshopDetails.swift */; };
+		D22248EE2473B51D009C3A00 /* WorkshopDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22248ED2473B51D009C3A00 /* WorkshopDetailsViewController.swift */; };
+		D22248F624771E05009C3A00 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22248F524771E05009C3A00 /* RegistrationViewController.swift */; };
+		D22248F824771E45009C3A00 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22248F724771E45009C3A00 /* CheckoutViewController.swift */; };
+		D22248FA24771E61009C3A00 /* SuccessfulTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22248F924771E61009C3A00 /* SuccessfulTransactionViewController.swift */; };
+		D22248FC24771E72009C3A00 /* FailedTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22248FB24771E72009C3A00 /* FailedTransactionViewController.swift */; };
+		D22248FE24771EB5009C3A00 /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22248FD24771EB5009C3A00 /* CardDetailsViewController.swift */; };
+		D2267453249F21A900E0C001 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2267452249F21A900E0C001 /* User.swift */; };
+		D2267455249F240E00E0C001 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2267454249F240E00E0C001 /* ProfileViewController.swift */; };
+		D229EDC624989AA200324526 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229EDC524989AA200324526 /* NotificationsViewController.swift */; };
+		D2753B8524A746AB00089158 /* CardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2753B8424A746AB00089158 /* CardsCollectionViewCell.swift */; };
+		D2753B8724A7487500089158 /* SavedCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2753B8624A7487500089158 /* SavedCardsViewController.swift */; };
+		D2753B8924A74A1500089158 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2753B8824A74A1500089158 /* Card.swift */; };
+		D2A093152472768F00DCF373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A093142472768F00DCF373 /* AppDelegate.swift */; };
+		D2A093172472768F00DCF373 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A093162472768F00DCF373 /* SceneDelegate.swift */; };
+		D2A0931C2472768F00DCF373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A0931A2472768F00DCF373 /* Main.storyboard */; };
+		D2A0931E2472769000DCF373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A0931D2472769000DCF373 /* Assets.xcassets */; };
+		D2A093212472769000DCF373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A0931F2472769000DCF373 /* LaunchScreen.storyboard */; };
+		D2A093292472C28E00DCF373 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2A093282472C28E00DCF373 /* GoogleService-Info.plist */; };
+		D2A0932B2472C74700DCF373 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0932A2472C74700DCF373 /* MyAccountViewController.swift */; };
+		D2A0932D2472C76100DCF373 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0932C2472C76100DCF373 /* HomeViewController.swift */; };
+		D2A093312472C79800DCF373 /* MyWorkshopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A093302472C79800DCF373 /* MyWorkshopsViewController.swift */; };
+		D2A093332472C80600DCF373 /* WorkshopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A093322472C80600DCF373 /* WorkshopCollectionViewCell.swift */; };
+		D2A093352472CA9B00DCF373 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A093342472CA9B00DCF373 /* FavouritesViewController.swift */; };
+		D2B49B8324A755D40034E339 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B49B8224A755D40034E339 /* AddCardViewController.swift */; };
+		D2B49B8524A799010034E339 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B49B8424A799010034E339 /* ContactUsViewController.swift */; };
+		D2B49B8724A818EF0034E339 /* FAQTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B49B8624A818EF0034E339 /* FAQTableViewController.swift */; };
+		D2B49B8924A81BAB0034E339 /* FAQTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B49B8824A81BAB0034E339 /* FAQTableViewCell.swift */; };
+		D2B49B9024A865320034E339 /* ThirdPartyRefTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B49B8F24A865320034E339 /* ThirdPartyRefTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83B5EE7D08640F8D983D8235 /* Pods-VALERIAVELIKA-A4-FinalApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VALERIAVELIKA-A4-FinalApplication.release.xcconfig"; path = "Target Support Files/Pods-VALERIAVELIKA-A4-FinalApplication/Pods-VALERIAVELIKA-A4-FinalApplication.release.xcconfig"; sourceTree = "<group>"; };
+		8CDF7257DC7131E175678ACB /* Pods-VALERIAVELIKA-A4-FinalApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VALERIAVELIKA-A4-FinalApplication.debug.xcconfig"; path = "Target Support Files/Pods-VALERIAVELIKA-A4-FinalApplication/Pods-VALERIAVELIKA-A4-FinalApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D5CAA2FCC95C9DD126F9CA /* Pods_VALERIAVELIKA_A4_FinalApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VALERIAVELIKA_A4_FinalApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21874682491D0BB006D413F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D218746A2491D0C4006D413F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D218746F2491FD08006D413F /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		D22248E724738DB8009C3A00 /* WorkshopDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopDetails.swift; sourceTree = "<group>"; };
+		D22248ED2473B51D009C3A00 /* WorkshopDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopDetailsViewController.swift; sourceTree = "<group>"; };
+		D22248F524771E05009C3A00 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		D22248F724771E45009C3A00 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		D22248F924771E61009C3A00 /* SuccessfulTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessfulTransactionViewController.swift; sourceTree = "<group>"; };
+		D22248FB24771E72009C3A00 /* FailedTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedTransactionViewController.swift; sourceTree = "<group>"; };
+		D22248FD24771EB5009C3A00 /* CardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+		D2267452249F21A900E0C001 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D2267454249F240E00E0C001 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D229EDC524989AA200324526 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		D2753B8424A746AB00089158 /* CardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2753B8624A7487500089158 /* SavedCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCardsViewController.swift; sourceTree = "<group>"; };
+		D2753B8824A74A1500089158 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D2A093112472768F00DCF373 /* Indoestri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indoestri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A093142472768F00DCF373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2A093162472768F00DCF373 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2A0931B2472768F00DCF373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2A0931D2472769000DCF373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A093202472769000DCF373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2A093222472769000DCF373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A093282472C28E00DCF373 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D2A0932A2472C74700DCF373 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		D2A0932C2472C76100DCF373 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D2A093302472C79800DCF373 /* MyWorkshopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkshopsViewController.swift; sourceTree = "<group>"; };
+		D2A093322472C80600DCF373 /* WorkshopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2A093342472CA9B00DCF373 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		D2B49B8224A755D40034E339 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		D2B49B8424A799010034E339 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		D2B49B8624A818EF0034E339 /* FAQTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQTableViewController.swift; sourceTree = "<group>"; };
+		D2B49B8824A81BAB0034E339 /* FAQTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQTableViewCell.swift; sourceTree = "<group>"; };
+		D2B49B8F24A865320034E339 /* ThirdPartyRefTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyRefTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A0930E2472768F00DCF373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAF69D2D5184793FC83F335 /* Pods_VALERIAVELIKA_A4_FinalApplication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59F19EF85901AB29AD05E9CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5CAA2FCC95C9DD126F9CA /* Pods_VALERIAVELIKA_A4_FinalApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2267451249F215100E0C001 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D21874682491D0BB006D413F /* SignInViewController.swift */,
+				D218746A2491D0C4006D413F /* SignUpViewController.swift */,
+				D2A0932C2472C76100DCF373 /* HomeViewController.swift */,
+				D2A093302472C79800DCF373 /* MyWorkshopsViewController.swift */,
+				D2A093342472CA9B00DCF373 /* FavouritesViewController.swift */,
+				D2A0932A2472C74700DCF373 /* MyAccountViewController.swift */,
+				D22248ED2473B51D009C3A00 /* WorkshopDetailsViewController.swift */,
+				D22248F524771E05009C3A00 /* RegistrationViewController.swift */,
+				D22248F724771E45009C3A00 /* CheckoutViewController.swift */,
+				D22248FD24771EB5009C3A00 /* CardDetailsViewController.swift */,
+				D22248F924771E61009C3A00 /* SuccessfulTransactionViewController.swift */,
+				D22248FB24771E72009C3A00 /* FailedTransactionViewController.swift */,
+				D2B49B8224A755D40034E339 /* AddCardViewController.swift */,
+				D2753B8624A7487500089158 /* SavedCardsViewController.swift */,
+				D2B49B8624A818EF0034E339 /* FAQTableViewController.swift */,
+				D2267454249F240E00E0C001 /* ProfileViewController.swift */,
+				D2B49B8424A799010034E339 /* ContactUsViewController.swift */,
+				D229EDC524989AA200324526 /* NotificationsViewController.swift */,
+				D2B49B8F24A865320034E339 /* ThirdPartyRefTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D2A093082472768F00DCF373 = {
+			isa = PBXGroup;
+			children = (
+				D2A093132472768F00DCF373 /* VALERIAVELIKA-A4-FinalApplication */,
+				D2A093122472768F00DCF373 /* Products */,
+				DB54FD9346B0DD736E068A32 /* Pods */,
+				59F19EF85901AB29AD05E9CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A093122472768F00DCF373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A093112472768F00DCF373 /* Indoestri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A093132472768F00DCF373 /* VALERIAVELIKA-A4-FinalApplication */ = {
+			isa = PBXGroup;
+			children = (
+				D2A093282472C28E00DCF373 /* GoogleService-Info.plist */,
+				D2A093142472768F00DCF373 /* AppDelegate.swift */,
+				D2A093162472768F00DCF373 /* SceneDelegate.swift */,
+				D2A0931A2472768F00DCF373 /* Main.storyboard */,
+				D2A0931D2472769000DCF373 /* Assets.xcassets */,
+				D2A0931F2472769000DCF373 /* LaunchScreen.storyboard */,
+				D2A093222472769000DCF373 /* Info.plist */,
+				D218746F2491FD08006D413F /* Styles.swift */,
+				D22248E724738DB8009C3A00 /* WorkshopDetails.swift */,
+				D2267452249F21A900E0C001 /* User.swift */,
+				D2753B8824A74A1500089158 /* Card.swift */,
+				D2753B8424A746AB00089158 /* CardsCollectionViewCell.swift */,
+				D2A093322472C80600DCF373 /* WorkshopCollectionViewCell.swift */,
+				D2B49B8824A81BAB0034E339 /* FAQTableViewCell.swift */,
+				D2267451249F215100E0C001 /* View Controllers */,
+			);
+			path = "VALERIAVELIKA-A4-FinalApplication";
+			sourceTree = "<group>";
+		};
+		DB54FD9346B0DD736E068A32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CDF7257DC7131E175678ACB /* Pods-VALERIAVELIKA-A4-FinalApplication.debug.xcconfig */,
+				83B5EE7D08640F8D983D8235 /* Pods-VALERIAVELIKA-A4-FinalApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A093102472768F00DCF373 /* VALERIAVELIKA-A4-FinalApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A093252472769000DCF373 /* Build configuration list for PBXNativeTarget "VALERIAVELIKA-A4-FinalApplication" */;
+			buildPhases = (
+				F7DA9B1D36EF78785DDFD4AC /* [CP] Check Pods Manifest.lock */,
+				D2A0930D2472768F00DCF373 /* Sources */,
+				D2A0930E2472768F00DCF373 /* Frameworks */,
+				D2A0930F2472768F00DCF373 /* Resources */,
+				E6A01D8377FE28B0BA4E6280 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VALERIAVELIKA-A4-FinalApplication";
+			productName = "VALERIAVELIKA-A4-FinalApplication";
+			productReference = D2A093112472768F00DCF373 /* Indoestri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A093092472768F00DCF373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Valeria Velika";
+				TargetAttributes = {
+					D2A093102472768F00DCF373 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D2A0930C2472768F00DCF373 /* Build configuration list for PBXProject "VALERIAVELIKA-A4-FinalApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A093082472768F00DCF373;
+			productRefGroup = D2A093122472768F00DCF373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A093102472768F00DCF373 /* VALERIAVELIKA-A4-FinalApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A0930F2472768F00DCF373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A093212472769000DCF373 /* LaunchScreen.storyboard in Resources */,
+				D2A093292472C28E00DCF373 /* GoogleService-Info.plist in Resources */,
+				D2A0931E2472769000DCF373 /* Assets.xcassets in Resources */,
+				D2A0931C2472768F00DCF373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6A01D8377FE28B0BA4E6280 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VALERIAVELIKA-A4-FinalApplication/Pods-VALERIAVELIKA-A4-FinalApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VALERIAVELIKA-A4-FinalApplication/Pods-VALERIAVELIKA-A4-FinalApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VALERIAVELIKA-A4-FinalApplication/Pods-VALERIAVELIKA-A4-FinalApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DA9B1D36EF78785DDFD4AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VALERIAVELIKA-A4-FinalApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A0930D2472768F00DCF373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A093152472768F00DCF373 /* AppDelegate.swift in Sources */,
+				D22248EE2473B51D009C3A00 /* WorkshopDetailsViewController.swift in Sources */,
+				D2B49B8524A799010034E339 /* ContactUsViewController.swift in Sources */,
+				D2753B8524A746AB00089158 /* CardsCollectionViewCell.swift in Sources */,
+				D2A093172472768F00DCF373 /* SceneDelegate.swift in Sources */,
+				D2A0932B2472C74700DCF373 /* MyAccountViewController.swift in Sources */,
+				D2B49B8724A818EF0034E339 /* FAQTableViewController.swift in Sources */,
+				D22248FC24771E72009C3A00 /* FailedTransactionViewController.swift in Sources */,
+				D218746B2491D0C4006D413F /* SignUpViewController.swift in Sources */,
+				D2753B8924A74A1500089158 /* Card.swift in Sources */,
+				D2B49B8324A755D40034E339 /* AddCardViewController.swift in Sources */,
+				D2B49B8924A81BAB0034E339 /* FAQTableViewCell.swift in Sources */,
+				D22248F624771E05009C3A00 /* RegistrationViewController.swift in Sources */,
+				D22248FA24771E61009C3A00 /* SuccessfulTransactionViewController.swift in Sources */,
+				D2267453249F21A900E0C001 /* User.swift in Sources */,
+				D2753B8724A7487500089158 /* SavedCardsViewController.swift in Sources */,
+				D22248FE24771EB5009C3A00 /* CardDetailsViewController.swift in Sources */,
+				D22248F824771E45009C3A00 /* CheckoutViewController.swift in Sources */,
+				D2A093332472C80600DCF373 /* WorkshopCollectionViewCell.swift in Sources */,
+				D2A0932D2472C76100DCF373 /* HomeViewController.swift in Sources */,
+				D21874702491FD08006D413F /* Styles.swift in Sources */,
+				D2B49B9024A865320034E339 /* ThirdPartyRefTableViewController.swift in Sources */,
+				D21874692491D0BB006D413F /* SignInViewController.swift in Sources */,
+				D229EDC624989AA200324526 /* NotificationsViewController.swift in Sources */,
+				D22248E824738DB8009C3A00 /* WorkshopDetails.swift in Sources */,
+				D2A093352472CA9B00DCF373 /* FavouritesViewController.swift in Sources */,
+				D2267455249F240E00E0C001 /* ProfileViewController.swift in Sources */,
+				D2A093312472C79800DCF373 /* MyWorkshopsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2A0931A2472768F00DCF373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A0931B2472768F00DCF373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2A0931F2472769000DCF373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A093202472769000DCF373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A093232472769000DCF373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A093242472769000DCF373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A093262472769000DCF373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDF7257DC7131E175678ACB /* Pods-VALERIAVELIKA-A4-FinalApplication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR9U639MKU;
+				INFOPLIST_FILE = "VALERIAVELIKA-A4-FinalApplication/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "monash.VALERIAVELIKA-A4-FinalApplication";
+				PRODUCT_NAME = Indoestri;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D2A093272472769000DCF373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B5EE7D08640F8D983D8235 /* Pods-VALERIAVELIKA-A4-FinalApplication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SR9U639MKU;
+				INFOPLIST_FILE = "VALERIAVELIKA-A4-FinalApplication/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "monash.VALERIAVELIKA-A4-FinalApplication";
+				PRODUCT_NAME = Indoestri;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A0930C2472768F00DCF373 /* Build configuration list for PBXProject "VALERIAVELIKA-A4-FinalApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A093232472769000DCF373 /* Debug */,
+				D2A093242472769000DCF373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A093252472769000DCF373 /* Build configuration list for PBXNativeTarget "VALERIAVELIKA-A4-FinalApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A093262472769000DCF373 /* Debug */,
+				D2A093272472769000DCF373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A093092472768F00DCF373 /* Project object */;
+}
